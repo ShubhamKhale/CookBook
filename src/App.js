@@ -7,9 +7,9 @@ import Feed from './pages/Feed';
 import RecipeInfo from './components/RecipeInfo';
 import Inspirations from './pages/Inspirations';
 
-function App() {
+function App() {   
   return (           
-    <Router>
+    <Router>   
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/login" element={<Login />} />
